@@ -6,10 +6,10 @@ import './Animback.css'
 
 
 const slides = [
-  { id: 0, url: 'photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i' },
-  { id: 1, url: 'photo-1544572571-ab94fd872ce4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1534&q=80' },
-  { id: 2, url: 'reserve/bnW1TuTV2YGcoh1HyWNQ_IMG_0207.JPG?ixlib=rb-1.2.1&w=1534&q=80' },
-  { id: 3, url: 'photo-1540206395-68808572332f?ixlib=rb-1.2.1&w=1181&q=80' },
+  { id: 0, url: 'photo-1552332271-bf8afb3d4596?ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80' },
+  { id: 1, url: 'photo-1569388037243-dfa034ecdbca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80' },
+  { id: 2, url: 'photo-1569878698890-41d806cfe9e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80' },
+  { id: 3, url: 'photo-1566228015668-4c45dbc4e2f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80' },
 ]
 
 const Animback = () => {
