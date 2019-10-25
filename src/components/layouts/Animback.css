@@ -26,3 +26,36 @@
     justify-content: center;
     
 }
+
+.container {
+display:flex;
+color:white;
+justify-content: center;
+font-family: 'Mystery Quest', cursive;
+font-size: 10px;
+margin-left: 30%;
+margin-right: 30%;
+text-transform: none;
+flex-direction: row;
+}
+
+.burger {
+  display: flex;
+  height: 40px;
+  color: snow;
+  justify-content: flex-end;
+  margin-left: 20%;
+  flex-direction: row;
+}
+
+.cloud {
+  display: flex;
+  height: 40px;
+  color: snow;
+  justify-content: flex-end;
+  margin-left: 80%;
+  margin-top: -3%;
+  margin-bottom: 0%;
+  position: absolute;
+  
+}
