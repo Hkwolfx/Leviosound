@@ -10,6 +10,8 @@ const slides = [
   { id: 1, url: 'photo-1569388037243-dfa034ecdbca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80' },
   { id: 2, url: 'photo-1569878698890-41d806cfe9e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80' },
   { id: 3, url: 'photo-1566228015668-4c45dbc4e2f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80' },
+  { id: 4, url: 'photo-1548625149-720134d51a3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80' },
+  { id: 5, url: 'photo-1560307002-306085d5ca4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80'}
 ]
 
 const Animback = () => {
@@ -20,7 +22,7 @@ const Animback = () => {
     leave: { opacity: 0 },
     config: config.molasses,
   })
-  useEffect(() => void setInterval(() => set(state => (state + 1) % 4), 6000), [])
+  useEffect(() => void setInterval(() => set(state => (state + 1) % 6), 6000), [])
   return transitions.map(({ item, props, key }) => (
     <div>
       {/* <Nav /> */}
