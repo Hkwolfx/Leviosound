@@ -2,6 +2,7 @@ import { render } from 'react-dom'
 import React, { useState, useEffect } from 'react'
 import { useTransition, animated, config } from 'react-spring'
 import MyTitleForm from "./MyTitleForm"
+
 // import Nav from './Nav'
 import './Animback.css'
 import './bars-solid.svg'
@@ -15,6 +16,7 @@ const slides = [
   { id: 4, url: 'photo-1548625149-720134d51a3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80' },
   { id: 5, url: 'photo-1560307002-306085d5ca4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80' }
 ]
+
 
 const Animback = () => {
   const [index, set] = useState(0)
@@ -33,9 +35,9 @@ const Animback = () => {
         key={key}
         class="bg"
         style={{ ...props, backgroundImage: `url(https://images.unsplash.com/${item.url}&auto=format&fit=crop)` }}>
-        <h1 className="titre">Leviosound</h1>
-        <img className="burger" src={require('./bars-solid.svg')} />
-        <img className="cloud" src={require('./cloud.svg')} />
+        <bounce><h1 className="titre">Leviosound</h1></bounce>
+        <img className="burger" src={require('./bars-solid.svg')} alt=''/>
+        <img className="cloud" src={require('./cloud.svg')} alt='' />
         <div className="container">
           <MyTitleForm />
         </div>
